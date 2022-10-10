@@ -1,0 +1,296 @@
+* {
+    font-family: 'Moonserrat'
+}
+
+body {
+    background: #f1fbff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.carousel-caption a {
+    font-size: 10px;
+    margin-top: ;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0.5);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-brand .navbar-link{
+    color: #000;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+
+
+
+/*--SERVICES--*/
+
+.services .card-body i{
+    font-size: 50px;
+}
+
+.services .card-body {
+    box-shadow: 15px 15px 40px rgb(0,0,0,0.15);
+}
+
+.portofolio .card-body {
+    box-shadow: 15px 15px 40px rgb(0,0,0,0.15);
+}
+.team .card-body {
+    box-shadow: 15px 15px 40px rgb(0,0,0,0.15);
+}
+
+.team .card-body i{
+    font-size: 20px;
+}
+
+.contact-info-area {
+    padding-bottom: 70px;
+}
+
+.deafult-padding {
+    padding: 80px;
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+.site-heading {
+    margin-bottom: 60px;
+    margin-top: -5px;
+    overflow: hidden;
+}
+
+
+.site-heading h2 {
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color:#002147;
+    z-index: 1;
+}
+
+.site-heading h2::before {
+    background: #ffb606 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+    width: 40px;
+    z-index: 1;
+}
+
+.site-heading h2::after {
+    background: #ffb606 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: 5px;
+    position: absolute;
+    width: 40px;
+}
+
+.contact-info-area .maps-form {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.maps-form {
+    width: 100%;
+}
+
+.contact-info-area .maps-form h2, .contact-info-area .maps-form h3, .contact-info-area .maps-form h4 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.contact-info-area .maps-form h3 {
+    margin-bottom: 15px;
+    color: #002147;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info-area .maps-form iframe {
+    height: 465px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.contact-info-area .maps-form .form {
+    padding-left: 35px;
+}
+
+.heading ul {
+    margin: 0;
+    list-style: none;
+}
+
+.maps-forms .heading.f-item.address i {
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #002147;
+}
+
+.contact-info-area .maps-form textarea {
+    border: 1px solid #e7e7e7;
+    border-radius: inherit;
+    box-shadow: inherit;
+    min-height: 150px;
+}
+
+.contact-info-area .maps-form button {
+    background: #002147 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    width:20%;
+    margin-left: 11px;
+}
+
+textarea .form-control {
+    height: auto;
+}
+
+
+.flaticon-manager:before {
+    content: "\f11f";
+}
+
+
+.top-cat-area .top-cat-items.inc-bg-color .item.mariner a::after {
+    background: #307ad5 none repeat scroll 0 0;
+}
+
+
+
+
+
+
+
+
+/*--Responsive CSS--*/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .col.md-6  {
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and(max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6px;
+        font-size: 12px;
+    }
+}
+
+
+
+/*--ABOUT--*/
+
+.about-img {}
